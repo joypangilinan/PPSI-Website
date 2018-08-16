@@ -13,14 +13,14 @@ class ContactController extends Controller
       
         $data = array(
             'name'          => $request->name,
-            'email'         => $request->email,
+            'emailadd'      => $request->emailadd,
             'subject'       => $request->subject,
             'bodyMessage'   => $request->message
         );
-
+    
         Mail::send('emails.contact', $data, function($message) use($data){
-            $message->from($data['email']);
-            $message->to('marclouie06@gmail.com');
+            $message->from('pierre&paul@gmail.com', $data['name']);
+            $message->to('ppsi.main@gmail.com');
             $message->subject($data['subject']);
         });
 

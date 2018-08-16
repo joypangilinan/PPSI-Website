@@ -189,49 +189,60 @@ $('#menu').onePageNav({
 	easing: 'easeInOutExpo'
 });
 
+
 // CONTACT SUBMIT
 
 $("form.contact_submit").submit(function(e){
   e.preventDefault();
-  var name = $("#name").val();
-  var email = $("#email").val();
-  var subject = $("#subject").val();
-  var message = $("#message").val();
 
-  if(name == "" || email == "" || subject == "" || message == ""){
-    return false;
-  }else{
+  if($(this).parsley().isValid()){
+
     $("#btn_submit").html('<span class="fa fa-circle-o-notch fa-spin"></span> &nbsp; Please wait...');
+
+    $.ajax({
+      type       : 'POST',
+      url        : '/contact',
+      dataType   : 'json',
+      data       : $('form').serialize(),
+      success    : function(data){
+
+          $("#name").val('');
+          $("#email").val('');
+          $("#subject").val('');
+          $("#message").val('');
+        
+          $(".contact_submit").parsley().reset();
+
+          $("#result").html('<div class="alert alert-success"><button type="button" class="close">×</button>Your E-mail was sent! Thanks for reaching us!</div>');
+
+          $("#btn_submit").html("Send Message");
+
+          window.setTimeout(function() {
+            $(".alert").fadeTo(500, 0).slideUp(500, function(){
+                $(this).remove(); 
+            });
+          }, 5000);
+          $('.alert .close').on("click", function(e){
+                $(this).parent().fadeTo(500, 0).slideUp(500);
+            });
+      
+      }
+    });
+  }else{
+    return false;
   }
 
-  $.ajax({
-     type       : 'POST',
-     url        : '/contact',
-     dataType   : 'json',
-     data       : $('form').serialize(),
-     success    : function(data){
+});
 
-        $("#name").val('');
-        $("#email").val('');
-        $("#subject").val('');
-        $("#message").val('');
-       
-        $(".contact_submit").parsley().reset();
 
-        $("#result").html('<div class="alert alert-success"><button type="button" class="close">×</button>Your E-mail was sent! Thanks for reaching us!</div>');
+// READ MORE HISTORY
 
-        $("#btn_submit").html("Send Message");
-
-        window.setTimeout(function() {
-          $(".alert").fadeTo(500, 0).slideUp(500, function(){
-              $(this).remove(); 
-          });
-        }, 5000);
-        $('.alert .close').on("click", function(e){
-              $(this).parent().fadeTo(500, 0).slideUp(500);
-          });
-     
-     }
-  });
-
+$(".history-col").hide();
+$("#history").click(function(){
+  $(".about-col").fadeOut();
+  $(".history-col").delay(400).fadeIn("slow");
+});
+$("#historyLess").click(function(){
+  $(".history-col").fadeOut();
+  $(".about-col").delay(400).fadeIn();
 });

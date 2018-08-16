@@ -12,7 +12,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+  
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,17 +26,10 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
 
   <!-- Parsley Stylesheet File -->
   <link href="css/parsley.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
@@ -179,12 +173,12 @@
           <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="about-col">
               <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <img src="img/about-vision.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <h2 class="title"><a href="#">Brief History</a></h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                <b>Pierre & Paul Solutions Inc</b>. was buit May-2011 by a group of five long-time friends. Those friends had their same vision of responsibility  and mutual respect. They do believe that this can be achieved by creating a working environment that ... <a href="#!" id="history">+ Read more</a>
               </p>
             </div>
           </div>
@@ -192,7 +186,7 @@
           <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="about-col">
               <div class="img">
-                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                <img src="img/about-plan.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
               <h2 class="title"><a href="#">Our Vision</a></h2>
@@ -202,7 +196,26 @@
             </div>
           </div>
 
+        <div class="col-md-12 history-col">
+          <div class="card">
+            <div class="card-body">
+            <h3 class="card-title">History of Pierre & Paul Solutions Inc.</h3>
+            <p class="text">
+              <b>Pierre & Paul Solutions Inc</b>. was buit May 2011 by a group of five long-time friends. Those friends had their same vision of responsibility  and mutual respect. They do believe that this can be achieved by creating a working environment that encourages creativity, self-development, discipline and determination.
+            </p>
+            <p class="text">
+              The group planned and worked hard together for a period of time just to achieve their dream. The company was named after the company President's sons John Pierre and Jonathan Paul. They decided to put up the company at Shaw Boulevard for this is one of the most visited places of jobseekers. It is the center of Ortigas and Makati where most large BPO companies are located.
+            </p>
+            <p class="text">
+              Through the years, we have steadily grown, PPSI was opened in March 2017, we have acquired assets and equipment, we have gained experience which we would need to attain our ultimate vision and mission, not only in Metro Manila but also in Visayas. Aside from working professionally, it is very important that our service is personalized and efficient especially for the job seekers. We would want them to know and feel that we value their time.
+            </p>
+            <p class="text">
+              As we continue our mission, to become the company that is both reliable, reputable and exceeds the expectations and demands of our prestigious business partners through changing times and to be the company that provides career oppurtunities nationwide. It will be fulfilling to leave something that will last more than our lifetime, something that we have worked hard for. By this, we will achieve the highest levels of satisfaction, as we will do everything we can to meet our client's expectations. PPSI continues its journey to progress and expand its business to other parts of the Philippines. <a href="#!" id="historyLess">- Go Back</a>
+            </p>
+            </div>
+          </div>
         </div>
+      </div>
 
       </div>
     </section><!-- #about -->
@@ -215,65 +228,109 @@
 
         <header class="section-header wow fadeInUp">
           <h3>Job Openings</h3>
-          <p>This are the list of Job Openings in our company you can apply for, Please feel free to contact us. Thank You! </p>
+          <p>This are the list of Accounts available in our company you can apply for, Please feel free to contact us or walk-in to our company. Thank You! </p>
         </header>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href=""#>CSR - Billing</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title"><a href="#!">Hotel Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 18 to 20k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">CSR - Collection</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <h4 class="title"><a href="#!">Travel Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 20 to 23k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">CSR - Email Support</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="#!">Financial Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 25 to 31k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">CSR - Health Care</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <h4 class="title"><a href="#!">TSR Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 20 to 30k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">CSR - Hotel Reservation</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <h4 class="title"><a href="#!">Dayshift Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 20 to 30k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">CSR - Travel</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="#!">Loan Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 25 to 31k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">CSR -  Customer Solutions Officer</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="#!">Healthcare Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 20 to 28k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">CSR - Telecom</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="#!">Collection Officer</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 20 to 31k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">TSR - Cable Company</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="#!">Collection Specialist</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 15 to 22k + Performance incentives <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">TSR - Gadget Account</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="#!">Communication Assistant</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 30 to 40k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-briefcase-outline"></i></div>
-            <h4 class="title"><a href="">TSR - Internet Account</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="#!">In-house Account</a></h4>
+            <p class="description">
+              <b>Qualifications:</b> HS/SHS/College Grad <br>
+              <b>Salary:</b> 20 to 30k package <br>
+              <b>Processing time:</b> 1-2 Days
+            </p>
           </div>
 
         </div>
@@ -330,7 +387,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Partnership with PUP</a></h4>
+                <h4><a href="#!">Partnership with PUP</a></h4>
                 <p>Contract Signing</p>
               </div>
             </div>
@@ -349,7 +406,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">CASAP</a></h4>
+                <h4><a href="#!">CASAP</a></h4>
                 <p>Job Fair</p>
               </div>
             </div>
@@ -367,7 +424,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">CEU Recto</a></h4>
+                <h4><a href="#!">CEU Recto</a></h4>
                 <p>Job Fair</p>
               </div>
             </div>
@@ -387,7 +444,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Collegio San Juan Letran</a></h4>
+                <h4><a href="#!">Collegio San Juan Letran</a></h4>
                 <p>Job Fair</p>
               </div>
             </div>
@@ -406,7 +463,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Don Bosco Technical College</a></h4>
+                <h4><a href="#!">Don Bosco Technical College</a></h4>
                 <p>Job Fair</p>
               </div>
             </div>
@@ -425,7 +482,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">PUP</a></h4>
+                <h4><a href="#!">PUP</a></h4>
                 <p>OJT Culminating Activity</p>
               </div>
             </div>
@@ -444,7 +501,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">JRU Intern</a></h4>
+                <h4><a href="#!">JRU Intern</a></h4>
                 <p>Job Fair</p>
               </div>
             </div>
@@ -463,7 +520,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Lyceum</a></h4>
+                <h4><a href="#!">Lyceum</a></h4>
                 <p>Job Fair</p>
               </div>
             </div>
@@ -482,7 +539,7 @@
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Occupational and Safety</a></h4>
+                <h4><a href="#!">Occupational and Safety</a></h4>
                 <p>Seminar Activity</p>
               </div>
             </div>
@@ -499,8 +556,8 @@
     <section id="testimonials" class="section-bg wow fadeInUp">
       <div class="container">
 
-        <header class="section-header">
-          <h3>testimonials</h3>
+        <header>
+          <h3 class="text-center">Testimonials</h3>
         </header>
         <div class="owl-carousel testimonials-carousel">
 
@@ -510,7 +567,7 @@
             <h4>President &amp; CEO</h4>
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusantium non est quo quod ab repudiandae necessitatibus similique. Quia magnam amet aliquam doloribus dicta.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
           </div>
@@ -526,18 +583,18 @@
             </p>
           </div>
 
-          <!-- <div class="testimonial-item">
+          <div class="testimonial-item">
             <img src="img/testimonial/testimonial-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
+            <h3>MC Miague</h3>
+            <h4>OPS Manager</h4>
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              My work has been continuous learning experience. We are like a family here in PPSI. It's basically one of the best companies that I've been with.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
           </div>
 
-          <div class="testimonial-item">
+          <!-- <div class="testimonial-item">
             <img src="img/testimonial/testimonial-4.jpg" class="testimonial-img" alt="">
             <h3>Matt Brandon</h3>
             <h4>Freelancer</h4>
@@ -611,7 +668,7 @@
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                <input type="email" class="form-control" name="emailadd" id="email" placeholder="Your Email" required />
               </div>
             </div>
             <div class="form-group">
@@ -639,7 +696,14 @@
 
           <div class="col-lg-4 col-md-6 footer-info">
             <h3>PPS Inc.</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <p id="pps">
+              " The ladder of 
+              success is best- 
+              climbed by stepping 
+              on the rungs of 
+              opportunity. "
+            </p><br>
+            <p class="text-secondary">-Ayn Rand</p>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-links">
@@ -677,7 +741,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Pierre & Paul Solutions Inc</strong>. All Rights Reserved
+        &copy; Copyright <strong>Copyright Pierre & Paul Solutions Inc</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
@@ -686,8 +750,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        Developed by <a href="https://bootstrapmade.com/">Marc Asoy</a>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
       </div>
     </div>
   </footer><!-- #footer -->
