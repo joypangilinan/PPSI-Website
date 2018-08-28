@@ -345,8 +345,8 @@
       <div class="container text-center">
         <h3>Pierre & Paul Solutions Incorporation</h3>
         <h4><span class="icon"><i class="ion-ios-location"></i></span> Bacolod Branch</h4>
-        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="cta-btn" href="#">Visit Bacolod Website</a>
+        <p> Please kindly visit Bacolod website for more information and details. Thank You!</p>
+        <a class="cta-btn" href="#">Click Here</a>
       </div>
     </section><!-- #call-to-action -->
 
@@ -567,7 +567,7 @@
             <h4>President &amp; CEO</h4>
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusantium non est quo quod ab repudiandae necessitatibus similique. Quia magnam amet aliquam doloribus dicta.
+              PPSI is more than my company. It has been for the most part a home for me. I will continually pursue in improving it for as long as I can.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
           </div>
@@ -578,12 +578,12 @@
             <h4>Operations Management</h4>
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              My work has been continuous learning experience. We are like a family here in PPSI. It's basically one of the best companies that I've been with.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
           </div>
 
-          <div class="testimonial-item">
+          <!-- <div class="testimonial-item">
             <img src="img/testimonial/testimonial-3.jpg" class="testimonial-img" alt="">
             <h3>MC Miague</h3>
             <h4>OPS Manager</h4>
@@ -592,7 +592,7 @@
               My work has been continuous learning experience. We are like a family here in PPSI. It's basically one of the best companies that I've been with.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-          </div>
+          </div> -->
 
           <!-- <div class="testimonial-item">
             <img src="img/testimonial/testimonial-4.jpg" class="testimonial-img" alt="">
