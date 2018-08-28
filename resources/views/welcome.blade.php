@@ -592,17 +592,6 @@
               My work has been continuous learning experience. We are like a family here in PPSI. It's basically one of the best companies that I've been with.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
-          </div> -->
-
-          <!-- <div class="testimonial-item">
-            <img src="img/testimonial/testimonial-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
           </div>
 
           <div class="testimonial-item">
