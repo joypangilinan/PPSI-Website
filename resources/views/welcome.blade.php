@@ -41,9 +41,10 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-         <h1><a href="#intro" class="scrollto">PPS Inc.</a></h1> 
+         <!-- <h1><a href="#intro" class="scrollto">PPS Inc.</a></h1>  -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!--<a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="PPSI" title="PPSI" /></a>
+        <a href="#intro" class="scrollto"><span class="logo-text">PPSI</span></a>
       </div>
   
       <nav id="nav-menu-container">
@@ -79,22 +80,50 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/6.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/9.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Pierre & Paul Solutions Inc.</h2>
-                <p>- Your Partner In Success!</p>
+                <img src="img/logo-jumbo.png" alt="PPSI"><br>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/7.jpg" alt=""></div>
+            <div class="carousel-background"><img src="img/intro-carousel/10.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Pierre & Paul Solutions Inc.</h2>
-                <p>- Your Partner In Success!</p>
+                <img src="img/logo-jumbo.png" alt="PPSI"><br>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <img src="img/logo-jumbo.png" alt="PPSI"><br>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <img src="img/logo-jumbo.png" alt="PPSI"><br>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <img src="img/logo-jumbo.png" alt="PPSI"><br>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
             </div>
@@ -160,7 +189,7 @@
           <div class="col-md-4 wow fadeInUp">
             <div class="about-col">
               <div class="img">
-                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <img src="img/mission.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
               </div>
               <h2 class="title"><a href="#">Our Mission</a></h2>
@@ -186,7 +215,7 @@
           <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="about-col">
               <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <img src="img/vision.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
               <h2 class="title"><a href="#">Our Vision</a></h2>
@@ -635,7 +664,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="#">940-97-08 / 531-12-06</a></p>
+              <p><a href="callto:9409708">940-97-08 / 531-12-06</a></p>
             </div>
           </div>
 
@@ -643,7 +672,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">pierre&paul@gmail.com</a></p>
+              <p><a href="http://www.zoho.com/">careers@pierre&paul.com</a></p>
             </div>
           </div>
 

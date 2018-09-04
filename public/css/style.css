@@ -103,6 +103,9 @@ h6 {
 
 #header #logo {
     float: left;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-content: left;
 }
 
 @media (min-width: 1024px) {
@@ -131,6 +134,18 @@ h6 {
 #header #logo img {
     padding: 0;
     margin: 0;
+    width: 30px;
+}
+
+#header #logo .logo-text {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -189,13 +204,10 @@ h6 {
     text-align: center;
 }
 
-#intro h2 {
+#intro img {
     color: #fff;
     margin-bottom: 30px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 58px;
-    font-weight: 700;
-    letter-spacing: 2px;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
