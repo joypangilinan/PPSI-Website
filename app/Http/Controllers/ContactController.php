@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
 use Mail;
+use App\Mail\SendMail;
 use Session;
 
 class ContactController extends Controller
@@ -13,17 +14,19 @@ class ContactController extends Controller
       
         $data = array(
             'name'          => $request->name,
-            'emailadd'      => $request->emailadd,
+            'email'         => $request->email,
             'subject'       => $request->subject,
             'bodyMessage'   => $request->message
         );
-    
-        Mail::send('emails.contact', $data, function($message) use($data){
-            $message->from('pierre&paul@gmail.com', $data['name']);
-            $message->to('ppsi.main@gmail.com');
-            $message->subject($data['subject']);
-        });
-
+        
+        Mail::to("ppsi.main@gmail.com")
+            ->send(new SendMail($data));
+        // Mail::send('emails.contact', $data, function($message) use ($data){
+        //     $message->from($data['emailadd']);
+        //     $message->to('ppsi.main@gmail.com');
+        //     $message->subject($data['subject']);
+        // }); 
+        
         return response()->json('success');
         
     }

@@ -201,31 +201,31 @@ $("form.contact_submit").submit(function(e){
 
     $.ajax({
       type       : 'POST',
-      url        : '/contact',
+      url        : 'contact',
       dataType   : 'json',
       data       : $('form').serialize(),
       success    : function(data){
 
-          $("#name").val('');
-          $("#email").val('');
-          $("#subject").val('');
-          $("#message").val('');
-        
-          $(".contact_submit").parsley().reset();
-
-          $("#result").html('<div class="alert alert-success"><button type="button" class="close">×</button>Your E-mail was sent! Thanks for reaching us!</div>');
-
-          $("#btn_submit").html("Send Message");
-
-          window.setTimeout(function() {
-            $(".alert").fadeTo(500, 0).slideUp(500, function(){
-                $(this).remove(); 
-            });
-          }, 5000);
-          $('.alert .close').on("click", function(e){
-                $(this).parent().fadeTo(500, 0).slideUp(500);
-            });
+        $("#name").val('');
+        $("#email").val('');
+        $("#subject").val('');
+        $("#message").val('');
       
+        $(".contact_submit").parsley().reset();
+
+        $("#result").html('<div class="alert alert-success"><button type="button" class="close">×</button>Your E-mail was sent! Thanks for reaching us!</div>');
+
+        $("#btn_submit").html("Send Message");
+
+        window.setTimeout(function() {
+          $(".alert").fadeTo(500, 0).slideUp(500, function(){
+              $(this).remove(); 
+          });
+        }, 5000);
+        $('.alert .close').on("click", function(e){
+            $(this).parent().fadeTo(500, 0).slideUp(500);
+        });
+    
       }
     });
   }else{

@@ -663,7 +663,7 @@
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
+              <h3>Contact Number</h3>
               <p><a href="callto:9409708">940-97-08 / 531-12-06</a></p>
             </div>
           </div>
@@ -672,7 +672,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="http://www.zoho.com/">careers@pierre&paul.com</a></p>
+              <p><a href="http://www.zoho.com/">careers@pierreandpaulinc.com</a></p>
             </div>
           </div>
 
@@ -686,7 +686,7 @@
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="emailadd" id="email" placeholder="Your Email" required />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
               </div>
             </div>
             <div class="form-group">
@@ -738,14 +738,14 @@
           <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              Unit 302 Summit One Tower, Shaw blvd., <br>
+              <strong>Address:</strong> Unit 302 Summit One Tower, Shaw blvd., <br>
               Mandaluyong City PH <br>
               <strong>Phone:</strong> 940-97-08 / 531-12-06<br>
-              <strong>Email:</strong> pierre&paul@gmail.com<br>
+              <strong>Email:</strong> careers@pierreandpaulinc.com<br>
             </p>
 
             <div class="social-links">  
-              <a href="#" class="instagram"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/pierre-and-paul-solutions-inc-b14959145" class="linkedin"><i class="fa fa-linkedin"></i></a>
               <a href="https://www.facebook.com/pierreandpaulsolutions/" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="https://www.youtube.com/channel/UCzIutJImUlJ3bX9PXfJlU5A?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
               <a href="https://www.instagram.com/PierreandPaulSolInc/" class="instagram"><i class="fa fa-instagram"></i></a>
@@ -759,7 +759,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Copyright Pierre & Paul Solutions Inc</strong>. All Rights Reserved
+        &copy; Copyright <strong>Pierre & Paul Solutions Inc</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
