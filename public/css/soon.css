@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(rgba(0, 109, 142, 0.5), rgba(0, 0, 0, 0.411)), url(../img/call-to-action-bg2.jpg) fixed center center;
+    background-size: cover;
+}
+
+.bgimg {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.topleft img {
+    width: 30px;
+}
+
+.topleft h3 {
+    margin: 0;
+}
+
+.topright {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+.topright ul {
+    margin: 0;
+    padding:0;
+}
+
+.topright ul li {
+    display: inline;
+    margin: 5px;
+}
+
+.topright ul li a {
+    color: white;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}

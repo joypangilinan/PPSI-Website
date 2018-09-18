@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/soon', function () {
+    return view('soon');
+});
+
 Route::post('contact', 'ContactController@postContact');

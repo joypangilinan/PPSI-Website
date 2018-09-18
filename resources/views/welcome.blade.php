@@ -375,7 +375,7 @@
         <h3>Pierre & Paul Solutions Incorporation</h3>
         <h4><span class="icon"><i class="ion-ios-location"></i></span> Bacolod Branch</h4>
         <p> Please kindly visit Bacolod website for more information and details. Thank You!</p>
-        <a class="cta-btn" href="#">Click Here</a>
+        <a class="cta-btn" href="/soon">Click Here</a>
       </div>
     </section><!-- #call-to-action -->
 
